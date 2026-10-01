@@ -3,7 +3,7 @@
 
 Code and aggregated data for the article:
 
-> Nascimento CF, de Paula TI, Freitas PC, Gouvêa ECDP, Martinez OGE, Menezes-Júnior LAA, et al. Predictive models for health risk behaviors and chronic disease prevalence in a Brazilian telephone-based population survey: Does one model fit all? *PLOS Digital Health*. [year]; [volume]: [article number]. doi: [DOI]
+> Nascimento CF, de Paula TI, Freitas PC, Gouvêa ECDP, Martinez OGE, Menezes-Júnior LAA, et al. Predictive models for health risk behaviors and chronic disease prevalence in a Brazilian telephone-based population survey: Does one model fit all?
 
 This repository contains the R pipeline used to estimate annual prevalences of seven indicators from the Brazilian Vigitel survey (2006–2024), analyze temporal trends, fit five forecasting models (linear regression, Prais-Winsten, ARIMA, Holt's method and Prophet), and compare their predictive performance in 77 time series.
 
