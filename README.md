@@ -26,7 +26,6 @@ This repository contains the R pipeline used to estimate annual prevalences of s
 ├── 06_graficos.R                # figures (PNG and TIFF, 300 dpi)
 ├── 07_especificacoes_modelos.R  # model specifications selected in each series (S2 Table)
 ├── run_all.R                    # runs the whole pipeline in order
-├── conferencia.py               # optional independent check of the results in Python
 └── saidas/                      # outputs (aggregated data, tables, figures)
 ```
 
@@ -67,8 +66,6 @@ Variable names in the files are in Portuguese (e.g., `indicador`, `grupo`, `ano`
 - Other packages: data.table, dplyr, tidyr, purrr, flextable, officer, PMCMRplus
 
 Missing packages are installed automatically by `00_config.R`. The exact versions of all packages are recorded in `saidas/versoes_pacotes.txt`.
-
-The optional check script `conferencia.py` requires Python 3 with pandas, numpy and scipy.
 
 ## How to run
 
