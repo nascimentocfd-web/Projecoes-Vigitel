@@ -38,7 +38,7 @@ Comments inside the scripts are written in Portuguese.
 The individual-level microdata are publicly available from the Brazilian Ministry of Health and are **not** redistributed here:
 
 - Vigitel harmonized database 2006–2024 (CSV), data dictionary and analysis guidelines: https://svs.aids.gov.br/daent/cgdnt/vigitel/
-- Version used in this study: harmonized database published in August 2026, accessed on [date].
+- Version used in this study: harmonized database published in August 2026, accessed on September 2026.
 
 Download and unzip the CSV file into the project folder. The pipeline uses the weighting variable `pesorake2025` and the indicator variables `obesid_i`, `fumante`, `ativo_livre`, `flvreco`, `alcabu`, `hart` and `diab`. It reads both the current unlabeled version of the database (numeric codes) and earlier labeled versions.
 
@@ -57,7 +57,6 @@ The folder `saidas/` contains all aggregated results needed to reproduce the tab
 | `margens_melhor_modelo.csv` | Difference in RMSE between the first and second models in each series |
 | `testes_friedman_nemenyi.txt` | Output of the Friedman and Nemenyi tests |
 
-Variable names in the files are in Portuguese (e.g., `indicador`, `grupo`, `ano`, `prev`, `modelo`).
 
 ## Requirements
 
@@ -103,4 +102,4 @@ To reproduce the analyses from the aggregated data only, without downloading the
 
 ## Contact
 
-Carla Ferreira do Nascimento – Department of Physical Therapy, Institute of Multidisciplinary Rehabilitation and Health, Federal University of Bahia, Brazil – [e-mail]
+Carla Ferreira do Nascimento – Department of Physical Therapy, Institute of Multidisciplinary Rehabilitation and Health, Federal University of Bahia, Brazil – e-mail: nascimento.cfd@ufba.br
